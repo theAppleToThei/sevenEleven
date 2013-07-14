@@ -77,6 +77,8 @@ public class SevenEleven {
 		} else {
 //			returnItems();
 		}
+
+System.out.println("7/eleven\n");
 		for (int j = 0; j < c.getCart().size(); j++) {
 			System.out.println(c.getCartItem(j).getName() + "          \n$" + c.getCartItem(j).getPrice());
 		}
